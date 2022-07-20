@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag templates</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="Recipes"/>
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="tags.html" class="nav-link">Tags</a>
+        <a href="recipes.html" class="nav-link">Recipes</a>
+        <div class="nav-link  contact-link">
+          <a href="contact.html" class="btn">Contact</a>
+        </div>
+      </div>
+    </div>
+   </nav>
+
+   <main class="page">
+    <div>
+      <h1>Carrots</h1>
+      <div class="reci-list">
+        <div class="card1">
+            <h3 class="card1-tit">Vegetable Soup</h3>
+            <img class="card1-img-top" src="./assets/recipes/recipe-3.jpeg" alt="food">
+            <div></div>
+            <div class="card1-body">
+                <h4 class="card1-tit">Ingredients</h4>
+                <ul>
+                 <li><i class="fa fa-check"></i> Fresh Vegetables</li>
+                 <li><i class="fa fa-check"></i> Pepper</li>
+                 <li><i class="fa fa-check"></i> Salt</li>
+                 <li><i class="fa fa-check"></i> Coriander</li>
+                </ul>
+                <h5 class="card1-tit"><i class="fas fa-clock"></i>  Preparation Time </h5><p>  25 mins</p>
+                <h5 class="card1-tit"><i class="far fa-clock"></i>  Cook Time </h5><p> 15 mins</p>
+                <a href="single-recipe4.html">Show Full Recipe <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+   </main>
+
+   <footer class="page-footer">
+    <p>&copy; <span id="date"></span>
+    <span class="footer-logo">Simply Recipes</span></p>
+   </footer>
+  <script src="./js/app.js"></script>
+  </body>
+</html>
